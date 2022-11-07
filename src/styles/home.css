@@ -1,0 +1,32 @@
+div {
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+
+  background: #ededed; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ededed,
+    #9932cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ededed,
+    #9932cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.git {
+  color: white;
+  margin-right: 1em;
+}
+.linkedin {
+  color: white;
+}
+.links {
+  text-align: end;
+  margin-right: 2em;
+}

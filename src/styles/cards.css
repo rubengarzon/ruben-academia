@@ -1,0 +1,29 @@
+.languages {
+  margin-top: 10em;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: white;
+}
+
+.languages__js,
+.languages__angular {
+  margin-right: 2em;
+}
+
+.img {
+  border-radius: 20px;
+  width: 150px;
+}
+
+.img__js {
+  border-radius: 20px;
+  width: 130px;
+}
+
+.img__angular {
+  border-radius: 20px;
+  width: 130px;
+}

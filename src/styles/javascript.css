@@ -1,0 +1,57 @@
+h2 {
+  font-size: 80px;
+
+  background: #ededed; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ededed,
+    #9932cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ededed,
+    #9932cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-top: 10px;
+}
+.img__js {
+  margin-top: 3em;
+}
+
+.cards-js {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.cards-js .card {
+  width: 10em;
+  height: 10em;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  border-radius: 2%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.cards-js .card:hover {
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  transform: scale(1.1);
+}
+
+.card span {
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+}
