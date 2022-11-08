@@ -7,3 +7,37 @@
 .link a {
   color: white;
 }
+
+.block-que-es-js {
+  padding: 10px;
+  margin: 10px;
+  text-align: -webkit-center;
+}
+
+.block-que-es-js p {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.block-que-es-js__content {
+  text-align: justify;
+  font-weight: 500;
+  width: 30em;
+}
+
+@media screen and (max-width: 500px) {
+  .block-que-es-js__content {
+    width: 100%;
+  }
+  .block-que-es-js p {
+    font-size: 17px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .block-que-es-js p {
+    font-size: 14px;
+  }
+}

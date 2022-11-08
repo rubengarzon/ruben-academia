@@ -27,3 +27,31 @@
   border-radius: 20px;
   width: 130px;
 }
+
+@media screen and (max-width: 500px) {
+  .img__js {
+    width: 100px;
+  }
+
+  .img__react {
+    margin-right: 2em;
+    width: 100px;
+  }
+
+  .img__angular {
+    width: 100px;
+  }
+
+  .languages__js,
+  .languages__angular {
+    margin-bottom: 1em;
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+  .languages {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+}

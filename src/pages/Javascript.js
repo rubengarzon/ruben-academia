@@ -30,7 +30,14 @@ const Javascript = () => {
           </span>
         </div>
         <div className="card">
-          <span className="card-title">Hola Mundo</span>
+          <span
+            className="card-title"
+            onClick={() => {
+              navigate("/hola-mundo");
+            }}
+          >
+            Hola Mundo
+          </span>
         </div>
         <div className="card">
           <span className="card-title">La consola</span>
