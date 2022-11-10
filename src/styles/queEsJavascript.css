@@ -3,6 +3,10 @@
   margin-left: 10px;
   margin-top: 10px;
 }
+.link__next {
+  float: right;
+  margin-right: 1em;
+}
 
 .link a {
   color: white;

@@ -4,6 +4,9 @@ const QueEsJavascript = () => {
     <>
       <div className="link">
         <a href="/js">Volver</a>
+        <a href="/hola-mundo" alt="" className="link__next">
+          Siguiente
+        </a>
       </div>
       <div className="block-que-es-js">
         <h1>¿Qué es Javascript?</h1>
