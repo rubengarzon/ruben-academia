@@ -1,3 +1,8 @@
+h3 {
+  color: white;
+  font-size: 50px;
+  background-color: crimson;
+}
 h2 {
   font-size: 80px;
 
@@ -39,6 +44,9 @@ h2 {
   border-radius: 2%;
   margin: 0 auto;
   cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
 }
 
 .cards-js .card:hover {

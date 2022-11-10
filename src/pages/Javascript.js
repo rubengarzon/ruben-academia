@@ -3,6 +3,16 @@ import "../styles/javascript.css";
 
 const Javascript = () => {
   const navigate = useNavigate();
+  const sections = [
+    {
+      href: "/que-es-js",
+      title: "¿Qué es Javascript?",
+    },
+    {
+      href: "/hola-mundo",
+      title: "Hola Mundo",
+    },
+  ];
 
   return (
     <>
@@ -18,48 +28,13 @@ const Javascript = () => {
         className="img__js"
       />
       <h2>Javascript</h2>
+      <h3>Básico</h3>
       <div className="cards-js">
-        <div className="card">
-          <span
-            className="card-title"
-            onClick={() => {
-              navigate("/que-es-js");
-            }}
-          >
-            ¿Qué es Javascript?
-          </span>
-        </div>
-        <div className="card">
-          <span
-            className="card-title"
-            onClick={() => {
-              navigate("/hola-mundo");
-            }}
-          >
-            Hola Mundo
-          </span>
-        </div>
-        <div className="card">
-          <span className="card-title">La consola</span>
-        </div>
-        <div className="card">
-          <span className="card-title">En desarrollo</span>
-        </div>
-        <div className="card">
-          <span className="card-title">En desarrollo</span>
-        </div>
-        <div className="card">
-          <span className="card-title">En desarrollo</span>
-        </div>
-        <div className="card">
-          <span className="card-title">En desarrollo</span>
-        </div>
-        <div className="card">
-          <span className="card-title">En desarrollo</span>
-        </div>
-        <div className="card">
-          <span className="card-title">En desarrollo</span>
-        </div>
+        {sections.map((section) => (
+          <a href={section.href} className="card" key={section.title}>
+            <span className="card-title">{section.title}</span>
+          </a>
+        ))}
       </div>
     </>
   );

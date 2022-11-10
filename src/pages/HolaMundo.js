@@ -45,7 +45,12 @@ const HolaMundo = () => {
       </div>
       <div className="block">
         <p className="content">El resultado sería este:</p>
-        <img src="https://i.ibb.co/vsmpD2Q/holamundo.png" alt="Hola Mundo" />
+        <img
+          src="https://i.ibb.co/vsmpD2Q/holamundo.png"
+          alt="Hola Mundo"
+          width="600px"
+          className="holamundo__img"
+        />
       </div>
     </>
   );
